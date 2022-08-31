@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+
+<section class="product" >
+    <div class="container py-1" >
+      <div class="row py-5" >
+        <div class="col-lg-5 m-auto text-center">
+          <h1>Le meilleur de la mode </h1>
+          <h6 style="color:red ;">Shopes tes articles préférés !</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+    
+        </div>
+      </div>
+    </div>
+    
+    </section>
+
+
+
+    <div class="row">
+        {% for product in product_object %}
+      <div class="col-lg-3 text-center">
+        <div class="card border-0  mb-3 " >
+          <div class="card-body">
+            <img src="{{ product.thumbnail.url }}" alt="" class="img-fluid">
+            <!--<button class=" btn btn-warning">Voir l'article</button>
+            <button class="btn btn-success">Ajouter au panier</button>-->
+          </div>
+        </div>
+        <h6 class="card-title">{{ product.name }}</h6>
+        <p class="card-text">{{ product.price }} fcfa</p>
+      </div>
+    
+        {% endfor %}
+
+        
+
+{% endblock  %}

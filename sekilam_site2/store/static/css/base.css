@@ -1,0 +1,51 @@
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+a:hover{
+    background-color:red;
+    color: white;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    background-color: red;
+    color: white;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid red;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-item{
+    color: red;
+}

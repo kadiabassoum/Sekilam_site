@@ -1,0 +1,40 @@
+.main{
+    background-size: cover;
+    height: 60vh;
+    background-position: 50% 50%;
+    width: 100%;
+    
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-right: 75px;
+    font-family: 'Aboreto', cursive;
+}
+
+.btn1{
+    height: 45px;
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+  
+   
+}
+
+
+
+
+
+
+h1{
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
